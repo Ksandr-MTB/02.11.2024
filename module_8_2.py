@@ -1,5 +1,3 @@
-
-
 def personal_sum(numbers):
     global result, incorrect_data
     result = 0
@@ -24,8 +22,6 @@ def calculate_average(numbers):
         return 0
     except  TypeError:
         return 'В numbers записан некорректный тип данных'
-
-
 
 
 print(f'Результат 1: {calculate_average("1, 2, 3")}')
